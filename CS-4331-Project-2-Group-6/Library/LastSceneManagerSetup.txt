@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Team-6-Base-Scene.unity
+  isLoaded: 1
+  isActive: 1
