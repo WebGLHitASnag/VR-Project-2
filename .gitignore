@@ -34,6 +34,10 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-/oculus/*
-Assets/OVR/*
-Assets/ProCore/*
+/oculus/
+Assets/OVR/
+Assets/OVR.meta
+Assets/Packages/
+Assets/Plugins/
+Assets/Editor/
+*.zip
