@@ -13,28 +13,35 @@ from gtts import gTTS
 async def generateDialogue(dialogue : str, name : str):
 	tts = gTTS(text=dialogue, lang='en')
 	tts.save("{}.mp3".format(name))
+	print("Generated dialogue for {}".format(name))
 	
 async def main():
-
 	first_window = "Hello and Welcome!"
-
+	#event_loop.create_task(generateDialogue(first_window, 'first_window'))
+	
 	second_window = """
 	Today, you will learn about two things; the Water Cycle and the characteristics
 	of different bodies of water. Pay attention because you will need to know this
 	information to be successful in the game!
 	"""
-
+	#event_loop.create_task(generateDialogue(second_window, 'second_window'))
+	
 	third_window = """
 	The Water cycle, scientifically known as the Hydrologic Cycle, involves the process by which water travels throughout its environment throughout the following key procedures: Evaporation, Condensation, Precipitation, Infiltration, Transpiration, and Surface Runoff.
 	"""
-
+	#event_loop.create_task(generateDialogue(third_window, 'third_window'))
+	
 	fourth_window = """
 	First, let's start with a simple example. How does it rain? Well, it all begins with Evaportation. The central body of water in the area contributes to the process. This means if there is a leak in our ecosystem, the sun will evaporate the water in the lake. Put simply, the liquid water in the lake will turn into a gas.
 	"""
-	
+	#event_loop.create_task(generateDialogue(fourth_window, 'fourth_window'))
+
+		
 	fifth_window = """
 	Once the water has evaporated, Condensation will occur and the evaporated water will turn into, for example, a cloud. This cloud will be where our rain water falls to the earth from!
 	"""
+	#event_loop.create_task(generateDialogue(fifth_window, 'fifth_window'))
+
 
 if __name__ == '__main__':
 	try:
