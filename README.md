@@ -14,13 +14,13 @@
   - Learning to use Unity and C# without having any prior experience.
   
 ## Contributors
-  - Carolyn Wu
+  - Xujia Wu
   - Jakob Dozier
   - Mayur Bhakta
   - Simon Woldemichael
 
 ### Work Distribution
-  - Carolyn: Menu page, Level 1, planning
+  - Xujia: Menu page, Level 1, planning
   - Jakob: Level 2, planning
   - Mayur: Level 2, planning
   - Simon: Level 1, planning, documentation
