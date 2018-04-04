@@ -26,6 +26,8 @@
   - Simon: Level 1, planning, documentation
  
 ### Key features
+#### level 1
+The animation from asset store:  *"Unity-chan" Model* 
 
 ### Grade Requirements
  - [x] Have water as the central element of your project
