@@ -27,6 +27,9 @@
  
 ### Key features
 #### level 1
+- chat dialogue
+- animation move
+
 
 
 ### Grade Requirements
@@ -45,4 +48,5 @@
 ### reference
 - menu: https://www.youtube.com/watch?v=zc8ac_qUXQY
 - animation control: https://www.youtube.com/watch?v=wdOk5QXYC6Y&t=627s
+- dialogue system: https://www.youtube.com/watch?v=_nRzoTzeyxU&t=3s
 
