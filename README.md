@@ -27,7 +27,7 @@
  
 ### Key features
 #### level 1
-The animation from asset store:  *"Unity-chan" Model* 
+
 
 ### Grade Requirements
  - [x] Have water as the central element of your project
@@ -38,6 +38,11 @@ The animation from asset store:  *"Unity-chan" Model*
 
 ### External asset sources and Unity packages
   - Classroom: https://sketchfab.com/models/2a1e3b294c1e4e91bed794bfa520c4f4#
+  - Character: https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705
   - Island terrain pack: [Unity Asset Store](https://assetstore.unity.com/packages/3d/environments/landscapes/free-island-collection-104753)
   - VR Sampels: [Unity Asset Store](https://assetstore.unity.com/packages/essentials/tutorial-projects/vr-samples-51519)
   
+### reference
+- menu: https://www.youtube.com/watch?v=zc8ac_qUXQY
+- animation control: https://www.youtube.com/watch?v=wdOk5QXYC6Y&t=627s
+
