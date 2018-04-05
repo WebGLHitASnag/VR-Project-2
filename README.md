@@ -6,13 +6,17 @@
 ## Try it out
 - Link to project website with download link goes here :soon: :tm:
 
-***
 ## Project Report
 
 ### We learned....
   - Game development methodology and procedures
   - Most of the development of our game pertained to tasks that were necessary in Project 1 (i.e. model placement and aesthetic design)
   - More about the Hydrologic Cycle than we thought there was
+
+### Tools Used
+  - Unity
+  - Blender
+  - Audacity
   
 ### Biggest issues
   - Learning to use Unity and C# without having any prior experience.
@@ -60,9 +64,11 @@
   - Sky5X One: [Unity Asset Store](https://assetstore.unity.com/packages/2d/textures-materials/sky/sky5x-one-6332)
   - Nature Starter Kit 2: [Unity Asset Store](https://assetstore.unity.com/packages/3d/environments/nature-starter-kit-2-52977)
   - Standard Assets (provided by [the TA](http://github.com/alex-nguyen)): https://drive.google.com/open?id=1QZkop1Vl17tabTXLwWEYegCt9uq5Vr4r
+  - Octocat logo: https://www.flaticon.com/free-icon/github-logo_25231
   
-### References (more available on the [Trello Board](https://trello.com/b/s1oLJZb3/cs-4331-002-group-6-virtual-reality-project-2) linked above)
+### References (more available on the [Trello Board](https://trello.com/b/s1oLJZb3/cs-4331-002-group-6-virtual-reality-project-2))
   - Menu development: https://www.youtube.com/watch?v=zc8ac_qUXQY
   - Animation Control: https://www.youtube.com/watch?v=wdOk5QXYC6Y&t=627s
-  - Dialogue System: https://www.youtube.com/watch?v=_nRzoTzeyxU&t=3s
-
+  - Dialogue System: https://www.youtube.com/watch?v=_nRzoTzeyxU&t=3
+  - Water animations w/ Blender: https://www.youtube.com/watch?v=VeGHNcOedAw
+  
