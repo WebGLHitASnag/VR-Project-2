@@ -113,12 +113,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &18624125
+--- !u!1001 &246558999
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 816438592}
+    m_TransformParent: {fileID: 1069956944}
     m_Modifications:
     - target: {fileID: 4470217348530988, guid: 8d4d0d3eb938f7242a32a636102030b1, type: 2}
       propertyPath: m_LocalPosition.x
@@ -155,47 +155,78 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8d4d0d3eb938f7242a32a636102030b1, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &164135919
+--- !u!114 &246559000 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114838501450283254, guid: 8d4d0d3eb938f7242a32a636102030b1,
+    type: 2}
+  m_PrefabInternal: {fileID: 246558999}
+  m_Script: {fileID: 11500000, guid: fc2899542295348408e9791e324df38f, type: 3}
+--- !u!4 &246559001 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4470217348530988, guid: 8d4d0d3eb938f7242a32a636102030b1,
+    type: 2}
+  m_PrefabInternal: {fileID: 246558999}
+--- !u!1 &1069956942
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 113028, guid: 2e2f6eab723cf914dba1ccb8c8ad38ae, type: 2}
+  m_PrefabParentObject: {fileID: 174762, guid: 2e2f6eab723cf914dba1ccb8c8ad38ae, type: 2}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 164135920}
+  - component: {fileID: 1069956944}
+  - component: {fileID: 1069956943}
   m_Layer: 0
-  m_Name: Audio
+  m_Name: SceneController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &164135920
+--- !u!114 &1069956943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1069956942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d5e8e554f4b0447b6c92f0237e7b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rainControllers:
+  - {fileID: 246559000}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!4 &1069956944
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 405336, guid: 2e2f6eab723cf914dba1ccb8c8ad38ae, type: 2}
+  m_PrefabParentObject: {fileID: 417530, guid: 2e2f6eab723cf914dba1ccb8c8ad38ae, type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 164135919}
+  m_GameObject: {fileID: 1069956942}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 725244150}
-  m_Father: {fileID: 816438592}
+  - {fileID: 246559001}
+  - {fileID: 2137888207}
+  m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &708579404
+--- !u!1 &1615342013
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 708579409}
-  - component: {fileID: 708579408}
-  - component: {fileID: 708579407}
-  - component: {fileID: 708579406}
-  - component: {fileID: 708579405}
+  - component: {fileID: 1615342018}
+  - component: {fileID: 1615342017}
+  - component: {fileID: 1615342016}
+  - component: {fileID: 1615342015}
+  - component: {fileID: 1615342014}
   m_Layer: 0
   m_Name: Rain Camera
   m_TagString: MainCamera
@@ -203,33 +234,33 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &708579405
+--- !u!81 &1615342014
 AudioListener:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 708579404}
+  m_GameObject: {fileID: 1615342013}
   m_Enabled: 1
---- !u!124 &708579406
+--- !u!124 &1615342015
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 708579404}
+  m_GameObject: {fileID: 1615342013}
   m_Enabled: 1
---- !u!92 &708579407
+--- !u!92 &1615342016
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 708579404}
+  m_GameObject: {fileID: 1615342013}
   m_Enabled: 1
---- !u!20 &708579408
+--- !u!20 &1615342017
 Camera:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 708579404}
+  m_GameObject: {fileID: 1615342013}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -260,12 +291,12 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &708579409
+--- !u!4 &1615342018
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 708579404}
+  m_GameObject: {fileID: 1615342013}
   m_LocalRotation: {x: -0.024788884, y: -0, z: -0, w: 0.99969274}
   m_LocalPosition: {x: 420, y: 0.53, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -273,15 +304,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -2.841, y: 0, z: 0}
---- !u!1 &725244149
+--- !u!1 &1992898292
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 106494, guid: 2e2f6eab723cf914dba1ccb8c8ad38ae, type: 2}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 725244150}
-  - component: {fileID: 725244151}
+  - component: {fileID: 1992898293}
+  - component: {fileID: 1992898294}
   m_Layer: 0
   m_Name: SoftRain
   m_TagString: Untagged
@@ -289,26 +320,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &725244150
+--- !u!4 &1992898293
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 497384, guid: 2e2f6eab723cf914dba1ccb8c8ad38ae, type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 725244149}
+  m_GameObject: {fileID: 1992898292}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 164135920}
+  m_Father: {fileID: 2137888207}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &725244151
+--- !u!82 &1992898294
 AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8226994, guid: 2e2f6eab723cf914dba1ccb8c8ad38ae,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 725244149}
+  m_GameObject: {fileID: 1992898292}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -383,63 +414,32 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!1 &816438590
+--- !u!1 &2137888206
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 174762, guid: 2e2f6eab723cf914dba1ccb8c8ad38ae, type: 2}
+  m_PrefabParentObject: {fileID: 113028, guid: 2e2f6eab723cf914dba1ccb8c8ad38ae, type: 2}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 816438592}
-  - component: {fileID: 816438591}
+  - component: {fileID: 2137888207}
   m_Layer: 0
-  m_Name: SceneController
+  m_Name: Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &816438591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 816438590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78d5e8e554f4b0447b6c92f0237e7b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rainControllers:
-  - {fileID: 1882089928}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
---- !u!4 &816438592
+--- !u!4 &2137888207
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 417530, guid: 2e2f6eab723cf914dba1ccb8c8ad38ae, type: 2}
+  m_PrefabParentObject: {fileID: 405336, guid: 2e2f6eab723cf914dba1ccb8c8ad38ae, type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 816438590}
+  m_GameObject: {fileID: 2137888206}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1527456707}
-  - {fileID: 164135920}
-  m_Father: {fileID: 0}
+  - {fileID: 1992898293}
+  m_Father: {fileID: 1069956944}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1527456707 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4470217348530988, guid: 8d4d0d3eb938f7242a32a636102030b1,
-    type: 2}
-  m_PrefabInternal: {fileID: 18624125}
---- !u!114 &1882089928 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114838501450283254, guid: 8d4d0d3eb938f7242a32a636102030b1,
-    type: 2}
-  m_PrefabInternal: {fileID: 18624125}
-  m_Script: {fileID: 11500000, guid: fc2899542295348408e9791e324df38f, type: 3}
