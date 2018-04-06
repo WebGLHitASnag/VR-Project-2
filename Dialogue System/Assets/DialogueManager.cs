@@ -9,10 +9,10 @@ public class DialogueManager : MonoBehaviour {
 	public Text dialogueText;
 
 	public Animator animator;
-    
-    
+   
+
     // Queue : first in first out
-	private Queue<string> sentences;
+    private Queue<string> sentences;
 
 	// Use this for initialization
 	void Start () {
@@ -35,6 +35,8 @@ public class DialogueManager : MonoBehaviour {
 		DisplayNextSentence();
 	}
 
+
+
 	public void DisplayNextSentence ()
 	{
 		if (sentences.Count == 0)
@@ -54,7 +56,7 @@ public class DialogueManager : MonoBehaviour {
 		foreach (char letter in sentence.ToCharArray())
 		{
 			dialogueText.text += letter;
-			yield return null;
+			yield return new WaitForSeconds(0.04f);
 		}
 	}
 
