@@ -15,4 +15,10 @@ public class MainMenu : MonoBehaviour {
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2); // Super SIMPLE!
     }
+
+    // This function will load a new scene (Leaderboard)
+    public void LoadleaderBoard() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+    }
+
 }
