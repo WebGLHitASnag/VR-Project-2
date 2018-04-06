@@ -1,12 +1,17 @@
-# CS 4331-002 - Virtual Reality Project 2
-## Due: Thursday, April 12th, 2018
+<h1 align="center">CS 4331-002 - Virtual Reality Project 2</h1>
+<p align="center"><img src="https://img.shields.io/badge/platform-Windows-blue.svg" alt="Supported platofrms">  <img src="https://img.shields.io/github/last-commit/WebGLHitASnag/VR-Project-2.svg?style=social" alt="GitHub Last Commit">  <img src="https://img.shields.io/github/languages/top/WebGLHitASnag/VR-Project-2.svg?style=social" alt="GitHub Language"></p>
 
-## Video demonstration
+<h2 align="center">Due: Thursday, April 12th, 2018</h2>
+<h2 align="center">Video Demonstration :soon: :tm:</h2>
 
 ## Try it out
 - Link to project website with download link goes here :soon: :tm:
 
-## Project Report
+***
+<h1 align="center">Project Report</h1>
+<p align="center">
+  <img style="width: 50%" width="80%" height="80%" src="https://i.imgur.com/DeQz4Fw.png">
+</p>
 
 ### We learned....
   - Game development methodology and procedures
@@ -14,13 +19,14 @@
   - More about the Hydrologic Cycle than we thought there was
 
 ### Tools Used
-  - Unity
-  - Blender
-  - Audacity
+  - [Unity](https://unity3d.com/) :video_game:
+  - [Blender](https://www.blender.org/) :crystal_ball:
+  - [Audacity](https://www.audacityteam.org/) :headphones:
   
 ### Biggest issues
   - Learning to use Unity and C# without having any prior experience.
-
+  - Integration of the project as a whole
+  
 ### Grade Requirements
  - [x] Have water as the central element of your project
 
@@ -37,10 +43,12 @@
   - Simon: Level 1, planning, documentation
  
 ### Key features
-(Game Decription/Object goes here)
-(Screenshots about each part of the game should go beneath the respective h4 headings)
-#### Menu description goes here
-  - Bullet point the Menu goes here
+  - The purpose of our game was to teach our players about the Hydrologic Cycle (also known as the Water Cycle). Level 1 of the game serves as a lesson to teach the basic concepts of the Hydrologic Cycle and level 2 gives the player a chance to apply what they learned and visualize the cycle as it happens under their control.
+
+#### Menu
+<p align="center">
+  <img style="width: 50%" src="https://imgur.com/lwZRpcp.gif">
+</p>
   
 #### Level 1
   - Chat-like dialogue system
@@ -50,7 +58,7 @@
   - Bullet point about Level 2 goes here
 
 ### Planned timeline
-  - We used a Trello board to track the progress and development of the project
+  - We used a Trello board to track the progress and development of the project! :clipboard:
     - Trello Board link: https://trello.com/b/s1oLJZb3/cs-4331-002-group-6-virtual-reality-project-2
 
 ### External asset sources and Unity packages
@@ -71,4 +79,3 @@
   - Animation Control: https://www.youtube.com/watch?v=wdOk5QXYC6Y&t=627s
   - Dialogue System: https://www.youtube.com/watch?v=_nRzoTzeyxU&t=3
   - Water animations w/ Blender: https://www.youtube.com/watch?v=VeGHNcOedAw
-  
