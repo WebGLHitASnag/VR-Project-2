@@ -592,7 +592,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &20483070
 GameObject:
@@ -9864,8 +9864,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 312217979}
-  m_LocalRotation: {x: 0.10757942, y: 0.5217113, z: 0.06652353, w: -0.84369344}
-  m_LocalPosition: {x: 4.640722, y: 1.4608804, z: 29.023561}
+  m_LocalRotation: {x: 0.009871294, y: 0.69410837, z: 0.008852229, w: -0.7197485}
+  m_LocalPosition: {x: 4.5707226, y: 1.5108912, z: 29.136}
   m_LocalScale: {x: 0.039999988, y: 0.04, z: 0.04}
   m_Children: []
   m_Father: {fileID: 1212909987}
@@ -17389,7 +17389,7 @@ GameObject:
   - component: {fileID: 540626815}
   - component: {fileID: 540626814}
   m_Layer: 0
-  m_Name: DialogueManager (1)
+  m_Name: DialogueManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25309,39 +25309,39 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1444310977}
+    m_TransformParent: {fileID: 1212909987}
     m_Modifications:
     - target: {fileID: 400326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 4.4182
       objectReference: {fileID: 0}
     - target: {fileID: 400326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.87
+      value: 1.745811
       objectReference: {fileID: 0}
     - target: {fileID: 400326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 29.136
       objectReference: {fileID: 0}
     - target: {fileID: 400326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0000000013969838
+      value: -0.0000000017131606
       objectReference: {fileID: 0}
     - target: {fileID: 400326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.99991214
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 400326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.013259126
+      value: 9.3132246e-10
       objectReference: {fileID: 0}
     - target: {fileID: 400326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.00000008940696
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 400326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 13700006, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_AABB.m_Center.y
@@ -25445,15 +25445,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.8666682
+      value: 0.07466682
       objectReference: {fileID: 0}
     - target: {fileID: 400326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.8666668
+      value: 0.07466667
       objectReference: {fileID: 0}
     - target: {fileID: 400326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.866668
+      value: 0.0746668
       objectReference: {fileID: 0}
     - target: {fileID: 400322, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26193,6 +26193,10 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!4 &777852685 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+  m_PrefabInternal: {fileID: 777852680}
 --- !u!1 &779828330
 GameObject:
   m_ObjectHideFlags: 0
@@ -30372,8 +30376,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 990652362}
-  m_LocalRotation: {x: 0.17982838, y: 0.0121129155, z: 0.0022145216, w: -0.98362094}
-  m_LocalPosition: {x: 4.480354, y: 1.4634262, z: 29.00626}
+  m_LocalRotation: {x: 0.030135643, y: 0.6834768, z: 0.028261703, w: -0.7288022}
+  m_LocalPosition: {x: 24.339767, y: 1.4058857, z: 46.38843}
   m_LocalScale: {x: 0.039999988, y: 0.04, z: 0.04}
   m_Children: []
   m_Father: {fileID: 1212909987}
@@ -38417,8 +38421,9 @@ Transform:
   - {fileID: 312217981}
   - {fileID: 2069820570}
   - {fileID: 1243354914}
+  - {fileID: 777852685}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1213840023
 GameObject:
@@ -42270,10 +42275,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1430087227}
   m_Mesh: {fileID: 4300748, guid: 9ed7ae6582edec1428098722df7d9476, type: 3}
---- !u!4 &1444310977 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
-  m_PrefabInternal: {fileID: 2086717673}
 --- !u!1 &1446218051
 GameObject:
   m_ObjectHideFlags: 0
@@ -44166,7 +44167,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 53bd2da7b9ef39c4d9448fad5700e900, type: 3}
+    m_Font: {fileID: 12800000, guid: f79c0638c9ad24986acd8d34c0e20256, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -47626,7 +47627,7 @@ GameObject:
   - component: {fileID: 1792760081}
   - component: {fileID: 1792760080}
   m_Layer: 0
-  m_Name: EventSystem (1)
+  m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48653,40 +48654,46 @@ MonoBehaviour:
   dialogue:
     name: Carolyn
     sentences:
-    - 'Hey there! Welcome to HydroCycle! '
-    - My name is Carolyn and I'll be your teacher today!
-    - 'Today, you will learn about two things;  '
-    - '...the Water Cycle and the characteristics of different bodies of water!'
-    - "Pay attention because you will need to know this\r information to be successful
-      in Level 2 of the game!"
-    - The Water cycle, scientifically known as the Hydrologic Cycle, involves the
-      process by which water travels throughout its environment.
-    - 'The process involves the following key procedures: '
-    - Evaporation, Condensation, Precipitation, Infiltration, Transpiration, and Surface
-      Runoff.
-    - 'First, let''s start with a simple example. How does it rain? '
-    - Well, it all begins with EVAPORATION.
-    - 'The central body of water in the area contributes to the process. This means
-      if there is a leak in our ecosystem, the sun will evaporate the water in the
-      lake. '
-    - Put simply, the liquid water in the lake will turn into a gas.
-    - Once the water has evaporated, CONDENSATION will occur and the evaporated water
-      will turn into a cloud!
-    - This cloud will be where our rain water falls to the earth from!
-    - This process of liquid water falling from clouds to the Earth is known as PRECIPITATION.
-    - After the water has fallen to the Earth INFILTRATION occurs.
-    - With Infiltration, water soaks into the soil and moves into the rocks. When
-      solid water, like snow and hail, it does not INFILTRATE until it melts.
-    - 'Next, TRANSPIRATION happens when this infiltrated water is received by the
-      roots of plants. '
-    - These plants will then carry the water up through their leaves and add the water
-      back into the atmosphere for another round of condensation and precipitation.
-    - You can remember this by attributing transpiration to evaporation, but with
-      plants!
-    - Lastly, there's SURFACE RUNOFF!
-    - Surface runoff occurs when precipitated water flows over the land surface and
-      back into major bodies of water!
-    - And then the cycle starts all over again!
+    - Hey there! Welcome to HydroCycle! My name is Carolyn and I'll be your teacher
+      today!
+    - "I'm here to guide you through water cycle!\r"
+    - "Today, you will learn about two things...\r"
+    - "...the Water Cycle and the characteristics of different bodies of water.\r"
+    - Pay attention because you will need to know this information to be successful
+      in Level 2 of the game!
+    - The Water cycle, scientifically known as the Hydrologic Cycle...
+    - '...involves the process by which water travels throughout its environment.'
+    - "The process involves the following key procedures: \r\n"
+    - "Evaporation, Condensation, Precipitation, Infiltration, Transpiration, and
+      Surface Runoff.\r\n"
+    - "First, let's start with a simple example. How does it rain? \r\n"
+    - "Well, it all begins with EVAPORATION.\r\n"
+    - "The central body of water in the area contributes to the process. \r\n"
+    - "This means if there is a lake in our ecosystem, the sun will evaporate the
+      water in the lake. \r\n"
+    - "Put simply, the liquid water in the lake will turn into a gas.\r\n"
+    - "Once the water has evaporated, CONDENSATION will occur and the evaporated water
+      will turn into a cloud!\r\n"
+    - "This cloud will be where our rain water falls to the earth from!\r\n"
+    - "This process of liquid water falling from clouds to the Earth is known as PRECIPITATION.\r\n"
+    - "After the water has fallen to the Earth, INFILTRATION occurs.\r\n"
+    - 'With Infiltration, water soaks into the soil and moves into the rocks. When
+      solid water, like snow and hail, infiltration...
+
+'
+    - "... does not occur until they melt.\r. Next, TRANSPIRATION happens when this
+      infiltrated water is received by the roots of plants. "
+    - "These plants will then carry the water up through their leaves and add the
+      water back into the atmosphere for another round...\r"
+    - "...of condensation and precipitation.\r\n"
+    - "You can remember this by attributing transpiration to evaporation, but with
+      plants!\r\n"
+    - "Lastly, there's SURFACE RUNOFF!\r\n"
+    - "Surface runoff occurs when precipitated water flows over the land surface and
+      back into major bodies of water.\r\n"
+    - "And then the cycle starts all over again!\r"
+    - "Now that you know everything you need about the Water Cycle...\r"
+    - "\rClick the button at the classroom door to start Level 2!"
   button: {fileID: 0}
 --- !u!114 &1829183966
 MonoBehaviour:
@@ -49375,7 +49382,7 @@ GameObject:
   - component: {fileID: 1897424726}
   - component: {fileID: 1897424725}
   m_Layer: 5
-  m_Name: Canvas (1)
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52694,6 +52701,21 @@ Transform:
   m_Father: {fileID: 1212909987}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2070003520 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 2086717673}
+--- !u!114 &2070003525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2070003520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7fad8871567b449a2cb4b2476b0d66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2073735205
 GameObject:
   m_ObjectHideFlags: 0
