@@ -26,6 +26,8 @@
   - Simon: Level 1, planning, documentation
  
 ### Key features
+![screenshot 12](https://user-images.githubusercontent.com/22507322/38460883-c2eb8d44-3a88-11e8-8689-7161fedc4907.png)
+
 
 ### Grade Requirements
  - [x] Have water as the central element of your project
