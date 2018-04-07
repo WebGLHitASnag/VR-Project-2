@@ -38,10 +38,10 @@ we cannot use mesh collider in that model cause this model is not convex
 so there are four cubes which now are invisiable to stop users walking off the boat
 ![screenshot 12](https://user-images.githubusercontent.com/22507322/38460883-c2eb8d44-3a88-11e8-8689-7161fedc4907.png)
 
-switch the boat mode and walking around mode
+switch the boat mode and walking around mode by pressing 0 or 1
 
 ```
-if(Input.GetKey("0"))
+		if(Input.GetKey("0"))
 		{
 			boat.GetComponent<Rigidbody>().isKinematic = false;
 			boat.GetComponent<boat>().enabled = true;
@@ -58,6 +58,7 @@ if(Input.GetKey("0"))
 			boatCamera.SetActive(false);
 
 			player.SetActive(true);
+			// move to start ing position
 			player.transform.position = playerStartPos.transform.position;
 		}
 	}
