@@ -26,7 +26,43 @@
   - Simon: Level 1, planning, documentation
  
 ### Key features
+The speed of the boat
+```
+
+	public float turnSpeed = 5000f;
+	public float accellerateSpeed = 5000f;
+```
+Add collider for the boat
+we cannot use mesh collider in that model cause this model is not convex
+
+so there are four cubes which now are invisiable to stop users walking off the boat
 ![screenshot 12](https://user-images.githubusercontent.com/22507322/38460883-c2eb8d44-3a88-11e8-8689-7161fedc4907.png)
+
+switch the boat mode and walking around mode
+
+```
+if(Input.GetKey("0"))
+		{
+			boat.GetComponent<Rigidbody>().isKinematic = false;
+			boat.GetComponent<boat>().enabled = true;
+			boatCamera.SetActive(true);
+
+			player.SetActive(false);
+		}
+
+		//set to FPS mode//
+		if(Input.GetKey("1"))
+		{
+			boat.GetComponent<Rigidbody>().isKinematic = true;
+			boat.GetComponent<boat>().enabled = false;
+			boatCamera.SetActive(false);
+
+			player.SetActive(true);
+			player.transform.position = playerStartPos.transform.position;
+		}
+	}
+  ```
+
 
 
 ### Grade Requirements
@@ -40,4 +76,4 @@
   - Classroom: https://sketchfab.com/models/2a1e3b294c1e4e91bed794bfa520c4f4#
   - Island terrain pack: [Unity Asset Store](https://assetstore.unity.com/packages/3d/environments/landscapes/free-island-collection-104753)
   - VR Sampels: [Unity Asset Store](https://assetstore.unity.com/packages/essentials/tutorial-projects/vr-samples-51519)
-  
+  -boat https://www.youtube.com/watch?v=s_RIfCfMlPc&t=410s
