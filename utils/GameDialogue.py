@@ -59,11 +59,13 @@ I'm here to guide you through water cycle!
 
 Today, you will learn about two things...
 
-the Water Cycle and the characteristics of different bodies of water.
+...the Water Cycle and the characteristics of different bodies of water.
 
 Pay attention because you will need to know this information to be successful in Level 2 of the game!
 
-The Water cycle, scientifically known as the Hydrologic Cycle, involves the process by which water travels throughout its environment.
+The Water cycle, scientifically known as the Hydrologic Cycle...
+
+...involves the process by which water travels throughout its environment.
 
 The process involves the following key procedures: 
 
@@ -73,7 +75,9 @@ First, let's start with a simple example. How does it rain?
 
 Well, it all begins with EVAPORATION.
 
-The central body of water in the area contributes to the process. This means if there is a lake in our ecosystem, the sun will evaporate the water in the lake. 
+The central body of water in the area contributes to the process. 
+
+This means if there is a lake in our ecosystem, the sun will evaporate the water in the lake. 
 
 Put simply, the liquid water in the lake will turn into a gas.
 
@@ -83,18 +87,24 @@ This cloud will be where our rain water falls to the earth from!
 
 This process of liquid water falling from clouds to the Earth is known as PRECIPITATION.
 
-After the water has fallen to the Earth INFILTRATION occurs.
+After the water has fallen to the Earth, INFILTRATION occurs.
 
-With Infiltration, water soaks into the soil and moves into the rocks. When solid water, like snow and hail, it does not INFILTRATE until it melts.
+With Infiltration, water soaks into the soil and moves into the rocks. When solid water, like snow and hail, infiltration...
 
-Next, TRANSPIRATION happens when this infiltrated water is received by the roots of plants. 
+...does not occur until they melt. Next, TRANSPIRATION happens when this infiltrated water is received by the roots of plants. 
 
-These plants will then carry the water up through their leaves and add the water back into the atmosphere for another round of condensation and precipitation.
+These plants will then carry the water up through their leaves and add the water back into the atmosphere for another round...
+
+...of condensation and precipitation.
 
 You can remember this by attributing transpiration to evaporation, but with plants!
 
 Lastly, there's SURFACE RUNOFF!
 
-Surface runoff occurs when precipitated water flows over the land surface and back into major bodies of water
+Surface runoff occurs when precipitated water flows over the land surface and back into major bodies of water.
 
 And then the cycle starts all over again!
+
+Now that you know everything you need about the Water Cycle...
+
+Click the button at the classroom door to start Level 2!
