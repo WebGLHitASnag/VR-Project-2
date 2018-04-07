@@ -9,7 +9,8 @@ public class DialogueManager : MonoBehaviour {
 	public Text dialogueText;
 
 	public Animator animator;
-    
+
+    public static int continue_count = 0; // Global
     
     // Queue : first in first out
 	private Queue<string> sentences;
@@ -37,6 +38,7 @@ public class DialogueManager : MonoBehaviour {
 
 	public void DisplayNextSentence ()
 	{
+        Debug.Log(continue_count);
 		if (sentences.Count == 0)
 		{
 			EndDialogue();
@@ -46,7 +48,9 @@ public class DialogueManager : MonoBehaviour {
 		string sentence = sentences.Dequeue();
 		StopAllCoroutines();
 		StartCoroutine(TypeSentence(sentence));
-	}
+        continue_count++; // When the button has been clicked, increment the countinue counter
+                          // When the counter reaches certain counts, we will display different types of precipitation
+    }
 
 	IEnumerator TypeSentence (string sentence)
 	{
