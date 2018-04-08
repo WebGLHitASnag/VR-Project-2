@@ -26,6 +26,7 @@
 ### Biggest issues
   - Learning to use Unity and C# without having any prior experience.
   - Integration of the project as a whole
+  - Maintaining portability (i.e. not including any extra dependencies for the final build of the game to run)
   
 ### Grade Requirements
  - [x] Have water as the central element of your project
@@ -62,7 +63,8 @@
     - Trello Board link: https://trello.com/b/s1oLJZb3/cs-4331-002-group-6-virtual-reality-project-2
 
 ### External asset sources and Unity packages
-  - Classroom: https://sketchfab.com/models/2a1e3b294c1e4e91bed794bfa520c4f4#
+  - Classroom: https://sketchfab.com/models/2a1e3b294c1e4e91bed794bfa520c4f4
+  - Cloud (Level 1): https://sketchfab.com/models/116f49c23c4347eba340d0f59b0601f7
   - Character model: [Unity Asset Store](https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705)
   - Island Terrain Pack: [Unity Asset Store](https://assetstore.unity.com/packages/3d/environments/landscapes/free-island-collection-104753)
   - VR Samples: [Unity Asset Store](https://assetstore.unity.com/packages/essentials/tutorial-projects/vr-samples-51519)
