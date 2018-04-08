@@ -32,13 +32,13 @@
  - [x] Have water as the central element of your project
 
 ## Contributors
-  - Carolyn Wu
+  - Xujia Wu
   - Jakob Dozier
   - Mayur Bhakta
   - Simon Woldemichael
 
 ### Work Distribution
-  - Carolyn: Menu page, Level 1, planning
+  - Xujia: Menu page, Level 1, planning
   - Jakob: Level 2, planning
   - Mayur: Level 2, planning
   - Simon: Level 1, planning, documentation
