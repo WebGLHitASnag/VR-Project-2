@@ -6,6 +6,9 @@ TagManager:
   tags:
   - ContinueButton
   - StartButton
+  - UnityChanModel
+  - THEFPSCONTROLLER
+  - THEFPSCAMERASCHILD
   layers:
   - Default
   - TransparentFX
