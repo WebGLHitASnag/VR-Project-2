@@ -85,6 +85,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 }
             }
 
+            // When the user is done clicking through all of the dialogue
             if (DialogueManager.continue_count >= 28) {
                 m_WalkSpeed = 5;
                 m_MouseLook.YSensitivity = 2;
