@@ -47,16 +47,19 @@
   - The purpose of our game was to teach our players about the Hydrologic Cycle (also known as the Water Cycle). Level 1 of the game serves as a lesson to teach the basic concepts of the Hydrologic Cycle and level 2 gives the player a chance to apply what they learned and visualize the cycle as it happens under their control.
 
 #### Menu
+  - At the menu the player can select which level they would like to start on, view controls, the leaderboard (currently a work in progress) and game options(also a work in progress)
 <p align="center">
   <img style="width: 50%" src="https://imgur.com/lwZRpcp.gif">
 </p>
   
 #### Level 1
+  - On level 1, the player is required to pilot a boat to the land mass holding the classroom. Once reaching the inside of the class room the player will be given the option of starting a conversation with the teacher model within. The teacher will then give the student a lesson on the water cycle. Once the player has completed the lesson, they will be able to go back on the boat and pilot the boat to level 2.
   - Chat-like dialogue system
   - Animated model
+  - Working aquatic vehicle
 
 #### Level 2 description goes here
-  - Bullet point about Level 2 goes here
+  - In level 2, the player will begin on a terrain that will give them 3 options for what body of water they would like to trigger the water cycle on. Once they've walked into a teleporter and reached the part of the scene that houses the selected body of water, the player will be required to find a sphere, skinned to look like the sun. Once finding the sphere, the player will *scroll up* on the mouse wheel and use the *q* and *e* keys to control the temperature of the orb. As soon as the orb is active and has reached the correct temperature, the water in the scene wil begin to evaporate, a cloud will form, and it will begin to rain. A timer is used to keep track of how long it takes the player to complete the level.
 
 ### Planned timeline
   - We used a Trello board to track the progress and development of the project! :clipboard:
