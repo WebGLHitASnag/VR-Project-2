@@ -28,8 +28,10 @@
   
 ### Biggest issues
   - Learning to use Unity and C# without any one in the group that has any prior experience.
+    - A majority of our time definitely went into knowing how GameObjects and Components were managed by the engine within the hierarchy. Moreover, how to write working C# code that performed as we needed it to.
+	- Small things like hiding buttons or delaying actions caused more issues than they should have.
   - *Integration of the project as a whole*
-    - There were merge errors (i.e. duplicate Library data within scenes) between 4 branches of development
+    - There were merge errors (i.e. duplicate Library data within scenes) between 4 branches of development and this caused a lot of slow down.
   - Maintaining portability (i.e. not including any extra dependencies for the final build of the game to run).
     - Taking into consideration the low level of performance provided by the computer in our lecture room, we wanted to keep the game as light as possible.
   - ***Dealing with Unity's randomness/unclear compile errors.***
@@ -80,7 +82,7 @@
 </p>
 	
   - Working aquatic vehicle
-    - Camera transitions achived with this C# code:
+    - Camera transitions achieved with this C# code:
 ```cs
 
 {
@@ -112,7 +114,9 @@
 </p>
 
 #### Level 2
-  - In level 2, the player will begin on a terrain that will give them 3 options for what body of water they would like to trigger the water cycle on. Once they've walked into a teleporter and reached the part of the scene that houses the selected body of water, the player will be required to find a sphere, skinned to look like the sun. Once finding the sphere, the player will *scroll up* on the mouse wheel and use the *q* and *e* keys to control the temperature of the orb. As soon as the orb is active and has reached the correct temperature, the water in the scene wil begin to evaporate, a cloud will form, and it will begin to rain. A timer is used to keep track of how long it takes the player to complete the level.
+  - In level 2, the player will begin on a terrain that will give them 3 options for what body of water they would like to trigger the water cycle on. Once they've walked into a teleporter and reached the part of the scene that houses the selected body of water, the player will be required to find a sphere, skinned to look like the sun. 
+  - After finding the sphere, the player will `scroll up` on the mouse wheel and use the `q` and `e` keys to control the temperature of the orb. As soon as the orb is active and has reached the correct temperature, the water in the scene wil begin to evaporate, a cloud will form, and it will begin to rain. A timer is used to keep track of how long it takes the player to complete the level.
+  - Players with with the shortest time on their timer's have received better scores than those with a longer time. It is a game of speed!
 
 ### Planned timeline
   - We used a Trello board to track the progress and development of the project! :clipboard:
