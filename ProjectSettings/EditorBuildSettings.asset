@@ -12,5 +12,14 @@ EditorBuildSettings:
     path: Assets/Menu/Menu.unity
     guid: 158ac111ee4d9274792362f09736d33a
   - enabled: 1
+    path: Assets/Leaderboard/Leaderboard.unity
+    guid: b1c79546e3ed1764eb7249499a5c2d52
+  - enabled: 1
+    path: Assets/Controls/Controls.unity
+    guid: d590fbe63fe2d16409c83d6d218372af
+  - enabled: 1
     path: Assets/Level 1/Team-6-Level-1.unity
     guid: e0afc561c6358e147b97f7ccdd3774ed
+  - enabled: 1
+    path: Assets/Level 2/Assets/Level 2.unity
+    guid: e4aa68bbe8aef8a4b9b23a15ad7a3425
