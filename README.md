@@ -5,7 +5,7 @@
 <h2 align="center">Video Demonstration :soon: :tm:</h2>
 
 ## Try it out
-- Link to project website with download link goes here :soon: :tm:
+- Download the game on our project's website: https://webglhitasnag.github.io/
 
 ***
 <h1 align="center">Project Report</h1>
@@ -14,19 +14,22 @@
 </p>
 
 ### We learned....
-  - Game development methodology and procedures
-  - Most of the development of our game pertained to tasks that were necessary in Project 1 (i.e. model placement and aesthetic design)
-  - More about the Hydrologic Cycle than we thought there was
-
+  - ...game development methodology and procedures.
+  - ...that most of the development of our game pertained to tasks that were necessary in Project 1 (i.e. model placement and aesthetic design).
+  - ...more about the Hydrologic Cycle than we thought there was.
+  - ...about a small sample of Unity's API.
+  - ...scripting with C#.
+  
 ### Tools Used
   - [Unity](https://unity3d.com/) :video_game:
   - [Blender](https://www.blender.org/) :crystal_ball:
   - [Audacity](https://www.audacityteam.org/) :headphones:
   
 ### Biggest issues
-  - Learning to use Unity and C# without having any prior experience.
+  - Learning to use Unity and C# without any one in the group that has any prior experience.
   - Integration of the project as a whole
   - Maintaining portability (i.e. not including any extra dependencies for the final build of the game to run)
+  - Dealing with Unity's randomness/unclear compile errors
   
 ### Grade Requirements
  - [x] Have water as the central element of your project
@@ -54,11 +57,55 @@
   
 #### Level 1
   - On level 1, the player is required to pilot a boat to the land mass holding the classroom. Once reaching the inside of the class room the player will be given the option of starting a conversation with the teacher model within. The teacher will then give the student a lesson on the water cycle. Once the player has completed the lesson, they will be able to go back on the boat and pilot the boat to level 2.
+  
   - Chat-like dialogue system
-  - Animated model
-  - Working aquatic vehicle
+<p align="center">
+  <img style="width: 50%" src="https://imgur.com/CN7EDOh.gif">
+</p>
 
-#### Level 2 description goes here
+  - Animated model
+<p align="center">
+  <img style="width: 50%" src="https://i.imgur.com/xeM5BzP.gif">
+</p>
+
+  - Animated with Prefab animations provided by the Asset Store (linked at the bottom of this README)
+<p align="center">
+  <img style="width: 50%" src="https://i.imgur.com/lDl4Rvi.gif">
+</p>
+	
+  - Working aquatic vehicle
+    - Camera transitions achived with this C# code:
+```cs
+
+{
+	//Selecting 0 moves the camera into the boat
+	if(Input.GetKey("0"))
+	{
+		boat.GetComponent<Rigidbody>().isKinematic = false;
+		boat.GetComponent<boat>().enabled = true;
+		boatCamera.SetActive(true);
+
+		player.SetActive(false);
+	}
+
+	//Pressing 1 sets the camera to FPS mode
+	if(Input.GetKey("1"))
+	{
+		boat.GetComponent<Rigidbody>().isKinematic = true;
+		boat.GetComponent<boat>().enabled = false;
+		boatCamera.SetActive(false);
+
+		player.SetActive(true);
+		// move to start ing position
+		player.transform.position = playerStartPos.transform.position;
+	}
+}
+```
+<p align="center">
+  <img style="width: 50%" src="https://i.imgur.com/BmYdeLN.gif">
+</p>
+
+#### Level 2
   - In level 2, the player will begin on a terrain that will give them 3 options for what body of water they would like to trigger the water cycle on. Once they've walked into a teleporter and reached the part of the scene that houses the selected body of water, the player will be required to find a sphere, skinned to look like the sun. Once finding the sphere, the player will *scroll up* on the mouse wheel and use the *q* and *e* keys to control the temperature of the orb. As soon as the orb is active and has reached the correct temperature, the water in the scene wil begin to evaporate, a cloud will form, and it will begin to rain. A timer is used to keep track of how long it takes the player to complete the level.
 
 ### Planned timeline
