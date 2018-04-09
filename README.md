@@ -1,5 +1,5 @@
 <h1 align="center">CS 4331-002 - Virtual Reality Project 2</h1>
-<p align="center"><img src="https://img.shields.io/badge/platform-Windows-blue.svg" alt="Supported platofrms">  <img src="https://img.shields.io/github/last-commit/WebGLHitASnag/VR-Project-2.svg?style=social" alt="GitHub Last Commit">  <img src="https://img.shields.io/github/languages/top/WebGLHitASnag/VR-Project-2.svg?style=social" alt="GitHub Language"></p>
+<p align="center"><img src="https://img.shields.io/badge/platform-Windows-blue.svg" alt="Supported platforms">  <img src="https://img.shields.io/github/last-commit/WebGLHitASnag/VR-Project-2.svg?style=social" alt="GitHub Last Commit">  <img src="https://img.shields.io/github/languages/top/WebGLHitASnag/VR-Project-2.svg?style=social" alt="GitHub Language"></p>
 
 <h2 align="center">Due: Thursday, April 12th, 2018</h2>
 <h2 align="center">Video Demonstration :soon: :tm:</h2>
@@ -22,23 +22,29 @@
   
 ### Tools Used
   - [Unity](https://unity3d.com/) :video_game:
+  - [Visual Studio](https://www.visualstudio.com/downloads/) :floppy_disk:
   - [Blender](https://www.blender.org/) :crystal_ball:
   - [Audacity](https://www.audacityteam.org/) :headphones:
   
 ### Biggest issues
   - Learning to use Unity and C# without any one in the group that has any prior experience.
-  - Integration of the project as a whole
-  - Maintaining portability (i.e. not including any extra dependencies for the final build of the game to run)
-  - Dealing with Unity's randomness/unclear compile errors
+  - *Integration of the project as a whole*
+    - There were merge errors (i.e. duplicate Library data within scenes) between 4 branches of development
+  - Maintaining portability (i.e. not including any extra dependencies for the final build of the game to run).
+    - Taking into consideration the low level of performance provided by the computer in our lecture room, we wanted to keep the game as light as possible.
+  - ***Dealing with Unity's randomness/unclear compile errors.***
+    - Scenario: Project is saved, working changes are commited and pushed to their respective remote branches, Unity is closed. Unity is opened again and the game has reverted to a point in development that was before what was committed and the current working branch needs to be fast-forwarded.
+  - VR implementation
+    - Since this game is for our Virtual Reality class, we were hoping to be able to at least implement the use of the Oculus HMD and Touch Controllers into our game, but since no one on the team had a supported GPU and travelling to the lab to debug, attempt and debug again wasn't viable, this was not possible.
   
 ### Grade Requirements
  - [x] Have water as the central element of your project
 
 ## Contributors
-  - Xujia Wu
-  - Jakob Dozier
-  - Mayur Bhakta
-  - Simon Woldemichael
+  - [Xujia Wu](https://github.com/carolynwu)
+  - [Jakob Dozier](https://github.com/JakobDozier)
+  - [Mayur Bhakta](https://github.com/mBhakta95)
+  - [Simon Woldemichael](https://github.com/swoldemi)
 
 ### Work Distribution
   - Xujia: Menu page, Level 1, planning
@@ -50,7 +56,7 @@
   - The purpose of our game was to teach our players about the Hydrologic Cycle (also known as the Water Cycle). Level 1 of the game serves as a lesson to teach the basic concepts of the Hydrologic Cycle and level 2 gives the player a chance to apply what they learned and visualize the cycle as it happens under their control.
 
 #### Menu
-  - At the menu the player can select which level they would like to start on, view controls, the leaderboard (currently a work in progress) and game options(also a work in progress)
+  - At the menu the player can select which level they would like to start on, view controls, the leaderboard (currently a work in progress) and game options (also a work in progress)
 <p align="center">
   <img style="width: 50%" src="https://imgur.com/lwZRpcp.gif">
 </p>
