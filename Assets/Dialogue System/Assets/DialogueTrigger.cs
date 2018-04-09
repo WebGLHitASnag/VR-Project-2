@@ -9,6 +9,7 @@ public class DialogueTrigger : MonoBehaviour {
     public GameObject button;
 	public void TriggerDialogue ()
     {
+        
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
         Destroy(GameObject.FindGameObjectsWithTag("StartButton")[0]);
     }
