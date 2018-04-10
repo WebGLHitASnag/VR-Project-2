@@ -11,6 +11,7 @@ public class OceanSun : MonoBehaviour {
     public GameObject item;
     public GameObject tempParent;
     public ParticleSystem heat;
+    public bool first = true;
     public bool hasPlayer = false;
     public bool hasObject = false;
     public bool isPlaying = false;
@@ -59,9 +60,13 @@ public class OceanSun : MonoBehaviour {
             var d = Input.GetAxis("Mouse ScrollWheel");
             var main = heat.main;
 
-            if (d > 0f) {
+            if (d > 0f) { 
                 heat.Play();
                 isPlaying = true;
+                if (first) {
+                    tempText.text = "70F";
+                    first = false;
+                }
             }
 
             else if (d < 0f) {
@@ -87,6 +92,7 @@ public class OceanSun : MonoBehaviour {
             player.transform.position.y >= 853f && player.transform.position.y <= 870f &&
             player.transform.position.z >= 1059f && player.transform.position.z <= 1070f) {
                 tempText.text = "";
+                hasObject = false;
             }
         }
     }
