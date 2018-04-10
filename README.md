@@ -2,10 +2,14 @@
 <p align="center"><img src="https://img.shields.io/badge/platform-Windows-blue.svg" alt="Supported platforms">  <img src="https://img.shields.io/github/last-commit/WebGLHitASnag/VR-Project-2.svg?style=social" alt="GitHub Last Commit">  <img src="https://img.shields.io/github/languages/top/WebGLHitASnag/VR-Project-2.svg?style=social" alt="GitHub Language"></p>
 
 <h2 align="center">Due: Thursday, April 12th, 2018</h2>
-<h2 align="center">Video Demonstration :soon: :tm:</h2>
+<h2 align="center">Video Demonstration</h2>
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=v6A88DzglsY"><img style="width: 50%" width="80%" height="80%" src="https://i.imgur.com/6QZzNyK.png"></a>
+</p>
 
 ## Try it out
 - Download the game on our project's website: https://webglhitasnag.github.io/
+  - Or from the latest release: https://github.com/WebGLHitASnag/VR-Project-2/releases
 
 ***
 <h1 align="center">Project Report</h1>
@@ -37,8 +41,9 @@
   - ***Dealing with Unity's randomness/unclear compile errors.***
     - Scenario: Project is saved, working changes are commited and pushed to their respective remote branches, Unity is closed. Unity is opened again and the game has reverted to a point in development that was before what was committed and the current working branch needs to be fast-forwarded.
   - VR implementation
-    - Since this game is for our Virtual Reality class, we were hoping to be able to at least implement the use of the Oculus HMD and Touch Controllers into our game, but since no one on the team had a supported GPU and travelling to the lab to debug, attempt and debug again wasn't viable, this was not possible.
-  
+    - Since this game is for our Virtual Reality class, we were hoping to be able to at least implement the use of the Oculus HMD and Touch Controllers into our game, but since no one on the team had a supported GPU and travelling to the lab to debug, attempt to setup VR, and debug again wasn't viable, this was not possible.
+  - Building the project
+    - Various bugs arose in the packaged executable build of our game that were virtually impossible to track down. [(Exhibit A)](https://forum.unity.com/threads/multiple-shader-error-messages-when-building-for-windows-text-is-all-pink-boxes.498754/)
 ### Grade Requirements
  - [x] Have water as the central element of your project
 
@@ -66,7 +71,7 @@
 #### Level 1
   - On level 1, the player is required to pilot a boat to the land mass holding the classroom. Once reaching the inside of the class room the player will be given the option of starting a conversation with the teacher model within. The teacher will then give the student a lesson on the water cycle. Once the player has completed the lesson, they will be able to go back on the boat and pilot the boat to level 2.
   
-  - Chat-like dialogue system
+  - Chat-like dialogue system. This is main way that the lesson is taught within the classroom.
 <p align="center">
   <img style="width: 50%" src="https://imgur.com/CN7EDOh.gif">
 </p>
@@ -104,7 +109,7 @@
 		boatCamera.SetActive(false);
 
 		player.SetActive(true);
-		// move to start ing position
+		// move to starting position
 		player.transform.position = playerStartPos.transform.position;
 	}
 }
@@ -115,8 +120,34 @@
 
 #### Level 2
   - In level 2, the player will begin on a terrain that will give them 3 options for what body of water they would like to trigger the water cycle on. Once they've walked into a teleporter and reached the part of the scene that houses the selected body of water, the player will be required to find a sphere, skinned to look like the sun. 
-  - After finding the sphere, the player will `scroll up` on the mouse wheel and use the `q` and `e` keys to control the temperature of the orb. As soon as the orb is active and has reached the correct temperature, the water in the scene wil begin to evaporate, a cloud will form, and it will begin to rain. A timer is used to keep track of how long it takes the player to complete the level.
+<p align="center">
+  <img style="width: 50%" src="https://i.imgur.com/gKNInac.png">
+</p>
+<p align="center">
+  <img style="width: 50%" src="https://imgur.com/Msgs0GT.gif">
+</p>
+
+  - After finding the sphere, the player will `scroll up` on the mouse wheel and use the `e` and `r` keys to control the temperature of the orb. As soon as the orb is active and has reached the correct temperature, the water in the scene wil begin to evaporate, a cloud will form, and it will begin to rain. A timer is used to keep track of how long it takes the player to complete the level.
   - Players with with the shortest time on their timer's have received better scores than those with a longer time. It is a game of speed!
+
+<p align="center">
+  <img style="width: 50%" src="https://imgur.com/HMX4Oh5.gif">
+</p> 
+
+- Once a sufficient amount of water has evaportated, a cloud will appear above the body of water and it will rain.
+<p align="center">
+  <img style="width: 50%" src="https://imgur.com/3cdWsqG.png">
+</p> 
+
+  - Here's a preview of the river area.
+<p align="center">
+  <img style="width: 50%" src="https://imgur.com/8g4rEam.png">
+</p> 
+
+  - And a preview of the ocean area.
+<p align="center">
+  <img style="width: 50%" src="https://imgur.com/tY95rjv.png">
+</p> 
 
 ### Planned timeline
   - We used a Trello board to track the progress and development of the project! :clipboard:
@@ -124,7 +155,7 @@
 
 ### External asset sources and Unity packages
   - Classroom: https://sketchfab.com/models/2a1e3b294c1e4e91bed794bfa520c4f4
-  - Cloud (Level 1): https://sketchfab.com/models/116f49c23c4347eba340d0f59b0601f7
+  - Cloud: https://sketchfab.com/models/116f49c23c4347eba340d0f59b0601f7
   - Character model: [Unity Asset Store](https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705)
   - Island Terrain Pack: [Unity Asset Store](https://assetstore.unity.com/packages/3d/environments/landscapes/free-island-collection-104753)
   - VR Samples: [Unity Asset Store](https://assetstore.unity.com/packages/essentials/tutorial-projects/vr-samples-51519)
@@ -141,3 +172,4 @@
   - Animation Control: https://www.youtube.com/watch?v=wdOk5QXYC6Y&t=627s
   - Dialogue System: https://www.youtube.com/watch?v=_nRzoTzeyxU&t=3
   - Water animations w/ Blender: https://www.youtube.com/watch?v=VeGHNcOedAw
+  - Boat: https://www.youtube.com/watch?v=s_RIfCfMlPc
