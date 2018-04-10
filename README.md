@@ -172,4 +172,5 @@
   - Animation Control: https://www.youtube.com/watch?v=wdOk5QXYC6Y&t=627s
   - Dialogue System: https://www.youtube.com/watch?v=_nRzoTzeyxU&t=3
   - Water animations w/ Blender: https://www.youtube.com/watch?v=VeGHNcOedAw
-  - Boat: https://www.youtube.com/watch?v=s_RIfCfMlPc
+  - Boat control: https://www.youtube.com/watch?v=s_RIfCfMlPc
+  - Water information: https://water.usgs.gov/edu/heat-capacity.html
