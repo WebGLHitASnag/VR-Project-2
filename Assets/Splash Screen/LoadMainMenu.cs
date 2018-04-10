@@ -29,7 +29,6 @@ public class LoadMainMenu : MonoBehaviour {
         }*/
 
         // When fading is complete, load the main menu
-        print(Time.time);
         if (Time.time > 4) {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }

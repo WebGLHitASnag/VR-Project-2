@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class QuitGame : MonoBehaviour {
 
@@ -9,5 +10,10 @@ public class QuitGame : MonoBehaviour {
     {
         Debug.Log("Application Terminated");
         Application.Quit();
+    }
+
+    public void ExitLevel2() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+
     }
 }

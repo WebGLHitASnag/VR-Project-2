@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class VisibleStartButton : MonoBehaviour {
-    GameObject cam;
+    public GameObject cam;
     GameObject start_dialogue;
     Vector3 desired_position = new Vector3(171.3f, 43.7f, -430.5f);
     public GameObject parentObject;
@@ -13,7 +13,6 @@ public class VisibleStartButton : MonoBehaviour {
     // Use this for initialization
     void Start () {
         start_dialogue = HelpMe.FindObject(parentObject, "TestButton");
-        cam = GameObject.FindGameObjectWithTag("THEFPSCONTROLLER").gameObject;
     }
 
     // Update is called once per frame
