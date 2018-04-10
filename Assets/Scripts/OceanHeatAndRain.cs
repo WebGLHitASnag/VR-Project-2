@@ -48,7 +48,7 @@ public class OceanHeatAndRain : MonoBehaviour {
 
     void Update() {
         //lowers water and expands cloud
-        if (particleCountHeat > 10) {
+        if (particleCountHeat > 500) {
             if (directionWater == Vector3.down) {
                 speed = 1.0f;
             }
@@ -68,7 +68,7 @@ public class OceanHeatAndRain : MonoBehaviour {
             }
 
             if (water.transform.position.y <= endWater) {
-                while (cloud.transform.localScale.x < 10.0) {
+                while (cloud.transform.localScale.x < 50.0) {
                     cloud.transform.localScale += new Vector3(2.0f, 2.0f, 2.0f) * Time.deltaTime;
                 }
                 rain.Play();
@@ -77,7 +77,7 @@ public class OceanHeatAndRain : MonoBehaviour {
         }
 
         //raises water and makes cloud disappear
-        if (particleCountRain > 20) {
+        if (particleCountRain > 500) {
             rain.Stop();
             directionWater = Vector3.up;
             speed = 1.0f;
