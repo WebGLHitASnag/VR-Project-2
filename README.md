@@ -1,3 +1,7 @@
+#### Student Questions (Count: 1)
+  - Question: How would you add a score system, seeing how you have a leaderboard in the main menu?
+  - Answer: To add a functioning scoring system/leaderboard, all we would need to do is store the users score at the end of a level (database, text file, etc), and show the data within the database or file whenever the leaderboad button is clicked and the scene is loaded
+
 <h1 align="center">CS 4331-002 - Virtual Reality Project 2</h1>
 <p align="center"><img src="https://img.shields.io/badge/platform-Windows-blue.svg" alt="Supported platforms">  <img src="https://img.shields.io/github/last-commit/WebGLHitASnag/VR-Project-2.svg?style=social" alt="GitHub Last Commit">  <img src="https://img.shields.io/github/languages/top/WebGLHitASnag/VR-Project-2.svg?style=social" alt="GitHub Language"></p>
 
